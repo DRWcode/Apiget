@@ -7,7 +7,7 @@ const PORT = 3000;
 // Endpoint para usuarios
 const usuariosRouter = require("./usuarios.js");
 
-app.use("/usuarios", usuariosRouter);
+app.use("/api", usuariosRouter);
 
 // Endpoint para categorías
 

@@ -24,3 +24,5 @@ const usuarios = [
 router.get("/usuarios", (req, res) => {
   res.json(usuarios); // Retorna los datos de los usuarios en formato json.
 });
+
+module.exports = router;
