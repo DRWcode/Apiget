@@ -5,7 +5,8 @@ Tarea con el objetivo de practicar el desarrollo de Apis con Express.js y Uso de
  Esta esla captura del flujo de trabajo, 
 ![grafico1](img/SourceControl.png)
 
-Hubo un conflicto a la hora de poder hacer git push de develop a main, por lo que se usó este comando, pero el resultado es que main aparece como copia idéntica de develop, aunque sí se desarrolló por separado.
+Hubo un conflicto a la hora de poder hacer git push de develop a main, por lo que se usó este comando, pero el resultado es que main aparece como copia idéntica de develop, aunque sí se desarrolló por separado.  
+![graficoerros](img/errormain.png)
 
 ```bash
 git checkout develop
