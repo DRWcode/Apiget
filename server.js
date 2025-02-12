@@ -33,6 +33,15 @@ app.get('/api/categorias', (req, res) => {
 
 // Endpoint para pedidos
 
+app.get('/api/pedidos', (req, res) => {
+  res.json([
+      { "id": 1, "usuario": "Alex", "total": 2000 },
+      { "id": 2, "usuario": "Carlos", "total": 1500 },
+      { "id": 3, "usuario": "Moises", "total": 1800 }
+  ]);
+});
+
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
