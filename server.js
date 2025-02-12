@@ -18,7 +18,19 @@ const usuariosRouter = require("./usuarios.js");
 
 app.use("/api", usuariosRouter);
 
+
+
+
 // Endpoint para categorías
+app.get('/api/categorias', (req, res) => {
+  res.json([
+      { id: 1, nombre: "Electrónica" },
+      { id: 2, nombre: "Hogar" },
+      { id: 3, nombre: "Deportes" }
+  ]);
+});
+
+
 
 // Endpoint para pedidos
 
