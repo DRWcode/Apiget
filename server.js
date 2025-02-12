@@ -4,7 +4,6 @@ const PORT = 3000;
 
 // Endpoint para productos
 // Endpoint: Devuelve una lista de productos
-//
 app.get('/api/productos', (req, res) => {
   res.json([
       { id: 1, nombre: "Laptop", precio: 1200 },
