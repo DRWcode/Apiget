@@ -3,6 +3,14 @@ const app = express();
 const PORT = 3000;
 
 // Endpoint para productos
+// Endpoint: Devuelve una lista de productos
+app.get('/api/productos', (req, res) => {
+  res.json([
+      { id: 1, nombre: "Laptop", precio: 1200 },
+      { id: 2, nombre: "Mouse", precio: 25 },
+      { id: 3, nombre: "Teclado", precio: 45 }
+  ]);
+});
 
 // Endpoint para usuarios
 const usuariosRouter = require("./usuarios.js");
